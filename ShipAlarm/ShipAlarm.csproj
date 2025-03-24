@@ -42,9 +42,4 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Reference Include="NewHorizons">
-      <HintPath>NewHorizons.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 </Project>

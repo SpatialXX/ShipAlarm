@@ -6,9 +6,6 @@ using System.Reflection;
 using System.Collections;
 using UnityEngine;
 using System.Collections.Generic;
-using NewHorizons.Utility;
-using NewHorizons.Builder;
-using NewHorizons.External.Modules;
 using ShipAlarm;
 using static UnityEngine.UI.Image;
 
@@ -68,18 +65,18 @@ namespace ShipAlarm.Components
         {
             if (InitializedAlarm == false)
             {
-                if (SearchUtilities.Find("Ship_Body/Module_Cockpit") == null)
+                if (GameObject.Find("/Ship_Body/Module_Cockpit") == null)
                 {
                     return;
                 }
 
-                GameObject Ship_Cockpit = SearchUtilities.Find("Ship_Body/Module_Cockpit");
-                GameObject PrefabVerboseAlarm = SearchUtilities.Find("Ship_Body/Audio_Ship/ShipInteriorAudio/AlarmAudio");
-                ShipReferenceFrame = SearchUtilities.Find("ShipScreenSpaceUI/CockpitLockOnCanvas").GetComponent<ReferenceFrameGUI>();
-                ShipDamaged = SearchUtilities.Find("Ship_Body/Module_Cockpit/Systems_Cockpit/ShipCockpitUI/DamageScreen/HUD_ShipDamageDisplay").GetComponent<ShipDamageDisplayV2>()._shipComponents;
+                GameObject Ship_Cockpit = GameObject.Find("/Ship_Body/Module_Cockpit");
+                GameObject PrefabVerboseAlarm = GameObject.Find("/Ship_Body/Audio_Ship/ShipInteriorAudio/AlarmAudio");
+                ShipReferenceFrame = GameObject.Find("/ShipScreenSpaceUI/CockpitLockOnCanvas").GetComponent<ReferenceFrameGUI>();
+                ShipDamaged = GameObject.Find("/Ship_Body/Module_Cockpit/Systems_Cockpit/ShipCockpitUI/DamageScreen/HUD_ShipDamageDisplay").GetComponent<ShipDamageDisplayV2>()._shipComponents;
 
-                //GameObject Source = SearchUtilities.Find("AlarmBank_Body/Sector/BAltitudeAlarm");
-                GameObject MainMasterLight = SearchUtilities.Find("Ship_Body/Module_Cabin/Lights_Cabin/PointLight_HEA_MasterAlarm");
+                //GameObject Source = GameObject.Find("/AlarmBank_Body/Sector/BAltitudeAlarm");
+                GameObject MainMasterLight = GameObject.Find("/Ship_Body/Module_Cabin/Lights_Cabin/PointLight_HEA_MasterAlarm");
 
 
                 LaterInitialize = 0;
@@ -131,16 +128,16 @@ namespace ShipAlarm.Components
 
 
                 
-                if (SearchUtilities.Find("Sun_Body") != null)
+                if (GameObject.Find("/Sun_Body") != null)
                 {
-                    GameObject SunBody = SearchUtilities.Find("Sun_Body");
+                    GameObject SunBody = GameObject.Find("/Sun_Body");
                     if (SunBody.activeSelf == true)
                     {
                         SunRB = SunBody.GetComponent<OWRigidbody>();
                     }  
                 }
 
-                Autopilot = SearchUtilities.Find("Ship_Body").GetComponent<Autopilot>();
+                Autopilot = GameObject.Find("/Ship_Body").GetComponent<Autopilot>();
 
 
                 //Ship_Cockpit.GetComponent<SimplePlayerTemperature>()._currentFuel = 0;
