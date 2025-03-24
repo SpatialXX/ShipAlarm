@@ -1,0 +1,57 @@
+ManifestFileVersion: 0
+CRC: 3454459280
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3b2ff494c4fa06ded25219ce33ee3a16
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/AlarmsAudio/MD/400.mp3
+- Assets/AlarmsAudio/BOEING/eng2fire.mp3
+- Assets/AlarmsAudio/BOEING/Overspeed.mp3
+- Assets/AlarmsAudio/BOEING/1000.mp3
+- Assets/AlarmsAudio/MD/300.mp3
+- Assets/AlarmsAudio/BOEING/10.mp3
+- Assets/AlarmsAudio/BOEING/StallWarning.mp3
+- Assets/AlarmsAudio/MD/200.mp3
+- Assets/AlarmsAudio/BOEING/400.mp3
+- Assets/AlarmsAudio/MD/AutopilotAlarm.mp3
+- Assets/AlarmsAudio/BOEING/evacuate.mp3
+- Assets/AlarmsAudio/MD/eng1fire.mp3
+- Assets/AlarmsAudio/MD/20.mp3
+- Assets/AlarmsAudio/BOEING/eng1fire.mp3
+- Assets/AlarmsAudio/BOEING/100.mp3
+- Assets/AlarmsAudio/BOEING/200.mp3
+- Assets/AlarmsAudio/MD/eng2fire.mp3
+- Assets/AlarmsAudio/MD/50.mp3
+- Assets/AlarmsAudio/MD/40.mp3
+- Assets/AlarmsAudio/MD/1000.mp3
+- Assets/AlarmsAudio/MD/10.mp3
+- Assets/AlarmsAudio/MD/30.mp3
+- Assets/AlarmsAudio/MD/StallWarning.mp3
+- Assets/AlarmsAudio/BOEING/20.mp3
+- Assets/AlarmsAudio/BOEING/40.mp3
+- Assets/AlarmsAudio/BOEING/AutopilotAlarm.mp3
+- Assets/AlarmsAudio/BOEING/300.mp3
+- Assets/AlarmsAudio/MD/boilers.ogg
+- Assets/AlarmsAudio/MD/2500.mp3
+- Assets/AlarmsAudio/MD/AltitudeAlarm.mp3
+- Assets/AlarmsAudio/BOEING/500.mp3
+- Assets/AlarmsAudio/MD/500.mp3
+- Assets/AlarmsAudio/MD/evacuate.mp3
+- Assets/AlarmsAudio/BOEING/50.mp3
+- Assets/AlarmsAudio/BOEING/2500.mp3
+- Assets/AlarmsAudio/MD/100.mp3
+- Assets/AlarmsAudio/BOEING/AltitudeAlarm.mp3
+- Assets/AlarmsAudio/BOEING/1500.mp3
+- Assets/AlarmsAudio/BOEING/30.mp3
+- Assets/AlarmsAudio/MD/Overspeed.mp3
+- Assets/AlarmsAudio/MD/1500.mp3
+Dependencies: []

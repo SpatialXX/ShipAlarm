@@ -43,7 +43,7 @@ namespace ShipAlarm
 
             // Get the New Horizons API and load configs
 
-            _shipAlarmBundle = AssetBundle.LoadFromFile(Path.Combine(ModHelper.Manifest.ModFolderPath, "assets/alarmsaudio"));
+            _shipAlarmBundle = AssetBundle.LoadFromFile(Path.Combine(ModHelper.Manifest.ModFolderPath, "planets/assets/alarmsaudio"));
 
             new Harmony("SpatialXX.ShipAlarm").PatchAll(Assembly.GetExecutingAssembly());
 
