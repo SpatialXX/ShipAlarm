@@ -1,0 +1,61 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/config_schema.json",
+    "enabled": true,
+    "settings": {
+
+        "Alarms Voice": {
+            "type": "selector",
+            "value": "MD-80",
+            "options": [
+                "MD-80",
+                "Boeing 737"
+            ],
+            "tooltip": "Which voice should the ship alarm use"
+        },
+        "Read Numbers": {
+            "type": "selector",
+            "value": "Altitude",
+            "options": [
+                "Altitude",
+                "Speed",
+                "None"
+            ],
+            "tooltip": "What informations should be read out by the ship"
+        },
+        "Alarms Volume": {
+            "type": "slider",
+            "min": 0,
+            "max": 100,
+            "value": 25,
+            "tooltip": "Volume at which the alarms will play"
+        },
+        "Overspeed Sensibility": {
+            "type": "slider",
+            "min": 0,
+            "max": 1,
+            "value": 0,
+            "tooltip": "Start an alarm if the ship speed is at 1/10th of the ship distance to target or higher. Minimum at 1/10, middle at 1.5/10, maximum at 2/10"
+        },
+        "Altitude Warning Distance": {
+            "type": "slider",
+            "min": 0,
+            "max": 1,
+            "value": 0.8,
+            "tooltip": "When in overspeed, allows the altitude alarm to play at a set distance. Minimum at 1km, middle at 3km, maximum at 5km"
+        },
+        "Sun Warning Distance": {
+            "type": "slider",
+            "min": 0,
+            "max": 1,
+            "value": 0.5,
+            "tooltip": "At which distance from the sun should an alarm play. Minimum a 3km, middle at 4.5, maximum at 6km"
+        },
+        "stallWarning": {
+            "title": "Enable Stall Warning",
+            "type": "toggle",
+            "value": "true",
+            "tooltip": "Plays an alarm if the ship is falling and it's vertical speed is between 0 and 15 m/s"
+        }
+
+    }
+}
