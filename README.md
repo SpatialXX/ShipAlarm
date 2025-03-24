@@ -1,4 +1,4 @@
-![Ship Alarm](banner.jpg)
+![Ship Alarm](banner.png)
 
 # Ship Alarm
 This mod adds **20 new audio cues** to your ship, in the form of **5 useful alarms** to make you a more cautious pilot. 
