@@ -251,7 +251,7 @@ namespace ShipAlarm.Components
                         }
                     }
 
-                    if (hatchControll != null)
+                    if (hatchControll != null && AuthorizeWelcome)
                     {
                         if (hatchControll._isPlayerInShip && PreviousPlayerInShip != hatchControll._isPlayerInShip)
                         {
