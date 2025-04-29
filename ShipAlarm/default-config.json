@@ -55,6 +55,24 @@
             "type": "toggle",
             "value": "true",
             "tooltip": "Plays an alarm if the ship is falling and it's vertical speed is between 0 and 15 m/s"
+        },
+        "subnauticaPDA": {
+            "title": "Enable Subnautica Notifications",
+            "type": "toggle",
+            "value": "true",
+            "tooltip": "Plays an informative message from Subnautica during takeoff or when nearing a planet"
+        },
+        "Welcome Voice": {
+            "type": "selector",
+            "value": "Cyclops",
+            "options": [
+                "Cyclops",
+                "Prawn",
+                "Sea Moth",
+                "Sea Base",
+                "None"
+            ],
+            "tooltip": "Which voice should the ship use when entering inside the ship"
         }
 
     }

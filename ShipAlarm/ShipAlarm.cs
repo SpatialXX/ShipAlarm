@@ -105,12 +105,14 @@ namespace ShipAlarm
             var sunWarn = ModHelper.Config.GetSettingsValue<float>("Sun Warning Distance");
             var AlarmsVoice = ModHelper.Config.GetSettingsValue<string>("Alarms Voice");
             var ReadNumbers = ModHelper.Config.GetSettingsValue<string>("Read Numbers");
-
+            var subnauticaPDA = ModHelper.Config.GetSettingsValue<bool>("subnauticaPDA");
+            var Welcome = ModHelper.Config.GetSettingsValue<string>("Welcome Voice");
+            
             if (_alarmMaster != null)
             {
                 if (_alarmMaster.GetComponent<AlarmInit>() != null)
                 {
-                    _alarmMaster.GetComponent<AlarmInit>().ConfigureInTwoStep(volumeAlarm, stallWarning, overspeed, altitudeWarning, sunWarn, AlarmsVoice, ReadNumbers);
+                    _alarmMaster.GetComponent<AlarmInit>().ConfigureInTwoStep(volumeAlarm, stallWarning, overspeed, altitudeWarning, sunWarn, AlarmsVoice, ReadNumbers, !subnauticaPDA, Welcome);
                 }
             }
         }

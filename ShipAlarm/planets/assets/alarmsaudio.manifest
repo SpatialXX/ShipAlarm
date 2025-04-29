@@ -1,9 +1,9 @@
 ManifestFileVersion: 0
-CRC: 3454459280
+CRC: 3837319009
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 3b2ff494c4fa06ded25219ce33ee3a16
+    Hash: 1a6a1363f2b6623df2d3bdbd356bee21
   TypeTreeHash:
     serializedVersion: 2
     Hash: 3f7d0c5e0986ec71841622bcb2f9be1c
@@ -13,45 +13,83 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
+- Assets/AlarmsAudio/Subnautica/motivation/minorheadtrauma.mp3
 - Assets/AlarmsAudio/MD/400.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/diet.mp3
 - Assets/AlarmsAudio/BOEING/eng2fire.mp3
 - Assets/AlarmsAudio/BOEING/Overspeed.mp3
+- Assets/AlarmsAudio/Subnautica/volcanicactivity.mp3
 - Assets/AlarmsAudio/BOEING/1000.mp3
+- Assets/AlarmsAudio/Subnautica/welcome/welcomeM2.mp3
+- Assets/AlarmsAudio/Subnautica/largealien.mp3
+- Assets/AlarmsAudio/Subnautica/welcome/welcomeF2.mp3
+- Assets/AlarmsAudio/Subnautica/swimming.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/photojournal.mp3
 - Assets/AlarmsAudio/MD/300.mp3
 - Assets/AlarmsAudio/BOEING/10.mp3
 - Assets/AlarmsAudio/BOEING/StallWarning.mp3
 - Assets/AlarmsAudio/MD/200.mp3
 - Assets/AlarmsAudio/BOEING/400.mp3
 - Assets/AlarmsAudio/MD/AutopilotAlarm.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/prawnOp.mp3
+- Assets/AlarmsAudio/Subnautica/predatorycave.mp3
+- Assets/AlarmsAudio/Subnautica/welcome/welcomeF1.mp3
+- Assets/AlarmsAudio/Subnautica/aquatic.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/mediate.mp3
 - Assets/AlarmsAudio/BOEING/evacuate.mp3
 - Assets/AlarmsAudio/MD/eng1fire.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/explorationrisk.mp3
 - Assets/AlarmsAudio/MD/20.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/pet.mp3
 - Assets/AlarmsAudio/BOEING/eng1fire.mp3
 - Assets/AlarmsAudio/BOEING/100.mp3
 - Assets/AlarmsAudio/BOEING/200.mp3
 - Assets/AlarmsAudio/MD/eng2fire.mp3
+- Assets/AlarmsAudio/Subnautica/unidentifiable.mp3
+- Assets/AlarmsAudio/Subnautica/seamoth.mp3
 - Assets/AlarmsAudio/MD/50.mp3
 - Assets/AlarmsAudio/MD/40.mp3
+- Assets/AlarmsAudio/Subnautica/welcome/welcomeM1.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/drink.mp3
 - Assets/AlarmsAudio/MD/1000.mp3
+- Assets/AlarmsAudio/Subnautica/ecologicalDeadZone.mp3
+- Assets/AlarmsAudio/Subnautica/energysignature.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/homesnothome.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/alienressources.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/flywell.mp3
 - Assets/AlarmsAudio/MD/10.mp3
 - Assets/AlarmsAudio/MD/30.mp3
 - Assets/AlarmsAudio/MD/StallWarning.mp3
 - Assets/AlarmsAudio/BOEING/20.mp3
 - Assets/AlarmsAudio/BOEING/40.mp3
+- Assets/AlarmsAudio/Subnautica/artificial.mp3
 - Assets/AlarmsAudio/BOEING/AutopilotAlarm.mp3
 - Assets/AlarmsAudio/BOEING/300.mp3
+- Assets/AlarmsAudio/Subnautica/cautionatdeep.mp3
+- Assets/AlarmsAudio/Subnautica/hugeenergy.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/radioactive.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/motivation.mp3
+- Assets/AlarmsAudio/Subnautica/cavedivers.mp3
 - Assets/AlarmsAudio/MD/boilers.ogg
+- Assets/AlarmsAudio/Subnautica/cavesystem.mp3
 - Assets/AlarmsAudio/MD/2500.mp3
 - Assets/AlarmsAudio/MD/AltitudeAlarm.mp3
+- Assets/AlarmsAudio/Subnautica/terror.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/aquarium.mp3
+- Assets/AlarmsAudio/Subnautica/orbitdestroy.mp3
 - Assets/AlarmsAudio/BOEING/500.mp3
 - Assets/AlarmsAudio/MD/500.mp3
 - Assets/AlarmsAudio/MD/evacuate.mp3
+- Assets/AlarmsAudio/Subnautica/plankton.mp3
 - Assets/AlarmsAudio/BOEING/50.mp3
 - Assets/AlarmsAudio/BOEING/2500.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/problems.mp3
+- Assets/AlarmsAudio/Subnautica/fossils.mp3
 - Assets/AlarmsAudio/MD/100.mp3
 - Assets/AlarmsAudio/BOEING/AltitudeAlarm.mp3
 - Assets/AlarmsAudio/BOEING/1500.mp3
 - Assets/AlarmsAudio/BOEING/30.mp3
+- Assets/AlarmsAudio/Subnautica/motivation/settings.mp3
 - Assets/AlarmsAudio/MD/Overspeed.mp3
 - Assets/AlarmsAudio/MD/1500.mp3
 Dependencies: []
